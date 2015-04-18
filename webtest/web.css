@@ -1,0 +1,160 @@
+@charset "gb2312"
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+ul {
+  margin:0;
+  padding:0;
+}
+.box{
+	width:1000px;
+	margin: 0 auto;
+}
+.title{
+	padding-left: 50px;
+	background-color: #FFFFFF;
+	height:80px;
+}
+.logo{
+	float: left;
+    width:250px;
+}
+.title_right li{
+	float:left;
+    list-style-type:none;
+    width:100px;
+    height:80px;
+    text-align:center;
+    line-height:60px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 20px;
+    margin-left: 10px;
+}
+.title_right a:link,.title_right a:visited{
+	text-decoration:none;
+    color:#000000;
+    background-color:#fff;
+}
+.title_right a:hover,.title_right a:active
+{
+    text-decoration:none;
+    color:#fff;
+    background-color:#be3948;
+    padding: 39px 10px;
+}
+#ad{
+	padding: 5px 0;
+	height: 310px;
+	overflow: hidden;
+}
+.news{
+	padding: 10px 0;
+}
+.news_left{
+	background-color:#be3948;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.news_right{
+	background-color:#4F4A4A;
+	width: 80%;
+	float: left;
+}
+.news_right span{
+	padding-left: 20px;
+}
+.news_left span,.news_right span{
+	color:#FFFFFF;
+	font-size: 25px;
+}
+.pic_ad{
+	padding-top: 30px;
+	height:150px;
+}
+.pic_ad p{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 5px;
+}
+.pic_ad li{
+	
+	list-style-type: none;
+	float: left;
+	width:330px;
+	border: 1px solid #CECDCD;
+
+}
+.pic_ad_mid{
+	margin:0 2px;
+}
+.web_bottom{
+	margin-top: 450px;
+	height:35px;
+	background-color: #B0ACAC;
+	clear: both;
+}
+.news_gg,.hot,.tel{
+	width:330px;
+	border:1px solid #E8E8E8;
+ 	float: left;
+ 	height:400px;
+}
+.hot{
+	margin:0 2px;
+	float: l
+}
+.news_gg li{
+	list-style-type: none;
+}
+.web_bottom p{
+	line-height: 35px;
+	text-align: center;
+	font-weight: bold;
+}
+.s_title{
+	color: #FFFFFF;
+	background-color: #be3948;
+	font-size: 20px;
+}
+.clearfix{
+	height:90px;
+	border-bottom: 1px solid #be3948;
+}
+.news-content a{
+	text-decoration: none;
+	color:#000000;
+	font-size: 14px;
+}
+.news-content h5{
+	font-size: 15px;
+}
+.date{
+	float: left;
+	background-color: #be3948;
+	margin: 5px;
+	padding: 20px;
+	text-align: center;
+}
+.code-z a{
+	font-size: 21px;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.activity-content li{
+	list-style-type: none;
+}
+.activity-content {
+	padding:25px 25px 10px;
+}
+.contact-content address{
+	font-style: normal;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
